@@ -1,0 +1,103 @@
+H1{font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: #dccaec;
+    padding: 2%;
+    background: linear-gradient(#b892da, #e8bcff, #ba89e4);
+    margin: 0px;
+    opacity: .9
+    
+    }
+    .BarraN a{
+        font-family: fantasy;
+        font-size: 25px;
+        background-color: rgb(220, 202, 236);
+       margin-top: 10px;
+
+        padding: 20px;
+        color: black;
+        text-decoration: none;
+    }
+
+    p{ font-size: 25px;}
+    
+    body{background-color: rgb(187, 154, 218);
+    padding: 20px;}
+    table{
+        text-align: center;
+        max-width: 1000px;
+        border-radius: 2%;
+        overflow: hidden;
+    
+    }
+    .perfil{
+        width: 50%;
+        }
+        .perfil1{
+            width: 100%;
+            }
+              .Body3{
+                background-image: url(http://www.manuelgraphics.com/wp-content/uploads/2014/08/Verus-Arts-Banner.png);
+                  -webkit-text-fill-color:transparent;
+                -webkit-background-clip:text;
+                font-family:Arial;
+                margin-top:100px;
+                margin-left:600px;
+                color:white;
+                font-size:82px;
+                  
+                }
+
+.Body2{
+                  background-image: url(Sasha/Sasha5.jpg), linear-gradient(100deg, #000, #000020) ;
+                  background-repeat:  no-repeat;
+                  background-size: cover;
+                }
+              
+h2{
+  opacity: .9
+}
+header{
+  display:table;
+  height: 35px;
+  justify-content: space-between;
+  background-color: #ffffff;
+  background: linear-gradient(#ba89e4, #f3eaff);
+  opacity: .9  
+}
+section{
+  display: flex;
+  width: 1700px;
+  height: 830px;
+
+}
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .9;
+  transition: .5s ease;
+}
+section img:hover{
+  cursor: crosshair;
+  width: 200px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+              
+header {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+            
+nav{
+  margin: 25px;
+
+}
